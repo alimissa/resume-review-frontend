@@ -71,7 +71,7 @@ const App = () => {
     setError('');
     
     try {
-      const response = await fetch('http://localhost:8000/history');
+      const response = await fetch('https://resume-review-backend-ekfp.onrender.com/history');
       
       if (!response.ok) {
         throw new Error(`Failed to load history: ${response.status}`);
