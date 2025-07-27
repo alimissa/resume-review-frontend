@@ -142,9 +142,9 @@ const App = () => {
           <h1 className="text-4xl font-extrabold text-gray-900 mb-2 tracking-tight">
             AI Resume Reviewer
           </h1>
-          <p className="text-md text-gray-600 max-w-md mx-auto leading-relaxed">
-            Get instant feedback on your resume's clarity, readability, and impact
-          </p>
+          <h3 className="text-md text-gray-600 max-w-md mx-auto leading-relaxed">
+            Get instant feedback on your resume's clarity and readability!
+          </h3>
         </div>
 
         {/* Main content */}
